@@ -1,0 +1,57 @@
+site_name: KVCC Computer club resources
+site_url: https://cc.hyperfrog.tech
+site_dir: "site"
+site_author: Joshua Lent
+site_description: >-
+  Resources for computer club
+
+repo_name: joshualent/cc-resources
+repo_url: https://github.com/joshualent/cc-resources
+
+copyright: Made for KVCC Computer Club
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/lightbulb-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  features:
+    - content.code.copy
+    - content.code.select
+# nav:
+#   - Index: index.md
+#   - DevOps:
+#       - devops/git.md
+#       - devops/test.md
+# markdown_extensions:
+#   - def_list
+#   - footnotes
+#   - admonition
+#   - pymdownx.details
+#   - pymdownx.highlight:
+#       anchor_linenums: true
+#       line_spans: __span
+#       pygments_lang_class: true
+#   - pymdownx.inlinehilite
+#   - pymdownx.snippets
+#   - pymdownx.superfences
